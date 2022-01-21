@@ -12,7 +12,7 @@ int main () {
 	char opcao;
 	int  cont=0,comp;
 	printf("SISTEMA TRIAGEM \n");
-	printf("RESPONDA O QUESTIONÁRIO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("RESPONDA O QUESTIONÃRIO \n",setlocale(LC_ALL,"Portuguese"));
 	printf("DIGITE SEU CPF - *APENAS OS NUMEROS \n");
 	fflush(stdin);
 	scanf(" %12[^\n]",&cpf);
@@ -47,9 +47,9 @@ int main () {
 	   		break;
 	}
 	system("cls");
-	printf("AGORA RESPONDA O QUESIONÁRIO SOBRE SINTOMAS DO COVID \n",setlocale(LC_ALL,"Portuguese"));
+	printf("AGORA RESPONDA O QUESIONÃRIO SOBRE SINTOMAS DO COVID \n",setlocale(LC_ALL,"Portuguese"));
 	aqui:
-	printf("TEM FEBRE?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("TEM FEBRE?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -66,13 +66,13 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			goto aqui;
 	}
 	system("cls");
 	aqui1:
-	printf("TEM DOR DE CABEÇA?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("TEM DOR DE CABEÃ‡A?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -89,13 +89,13 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			goto aqui1;
 	}
 	system("cls");
 	aqui2:
-	printf("TEM SECREÇAO NASAL OU ESPIRROS?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("TEM SECREÃ‡AO NASAL OU ESPIRROS?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -114,13 +114,13 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			goto aqui2;
 	}
 	system("cls");
 	aqui3:
-	printf("TEM DOR/IRRITAÇÃO NA GARGANTA?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("TEM DOR/IRRITAÃ‡ÃƒO NA GARGANTA?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -137,14 +137,14 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			printf("------------------------------------\n",setlocale(LC_ALL,"Portuguese"));
 			goto aqui3;
 	}
 	system("cls");
 	aqui4:
-	printf("TEM TOSSE SECA?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("TEM TOSSE SECA?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -161,14 +161,14 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			printf("------------------------------------\n",setlocale(LC_ALL,"Portuguese"));
 			goto aqui4;
 	}
 	system("cls");
 	aqui5:
-	printf("TEM DIFICULADE RESPIRATÓRIA?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("TEM DIFICULADE RESPIRATÃ“RIA?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -185,14 +185,14 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			printf("------------------------------------\n",setlocale(LC_ALL,"Portuguese"));	
 			goto aqui5;
 	}
 	system("cls");
 	aqui6:
-	printf("TEM DORES NO CORPO?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("TEM DORES NO CORPO?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -209,14 +209,14 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			printf("------------------------------------\n",setlocale(LC_ALL,"Portuguese"));
 			goto aqui6;
 	}
 	system("cls");
 	aqui7:
-	printf("TEM DIARRÉIA?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("TEM DIARRÃ‰IA?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -233,14 +233,14 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			printf("------------------------------------\n",setlocale(LC_ALL,"Portuguese"));			
 			goto aqui7;
 	}
 	system("cls");
 	aqui8:
-	printf("ESTEVE EM CONTANTO, NOS ULTIMOS 14 DIAS, COM UM CASO  COM ALGUÉM DIAGNOSTICADO COM COVID-19?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("ESTEVE EM CONTANTO, NOS ULTIMOS 14 DIAS, COM UM CASO  COM ALGUÃ‰M DIAGNOSTICADO COM COVID-19?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -257,14 +257,14 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			printf("------------------------------------\n",setlocale(LC_ALL,"Portuguese"));			
 			goto aqui8;
 	}
 	system("cls");
 	aqui9:
-	printf("ESTEVE EM LOCAIS COM GRANDE AGLOMERAÇÃO?[S]IM [n]ÃO \n",setlocale(LC_ALL,"Portuguese"));
+	printf("ESTEVE EM LOCAIS COM GRANDE AGLOMERAÃ‡ÃƒO?[S]IM [n]ÃƒO \n",setlocale(LC_ALL,"Portuguese"));
 	fflush(stdin);
 	scanf("%s",&opcao);
 	switch (opcao){
@@ -281,7 +281,7 @@ int main () {
 			cont=cont+0;
 			break;
 		default:
-			printf("OPÇÃO INVÁLIDA \n",setlocale(LC_ALL,"Portuguese"));
+			printf("OPÃ‡ÃƒO INVÃLIDA \n",setlocale(LC_ALL,"Portuguese"));
 			printf("TENTE NOVAMENTE\n",setlocale(LC_ALL,"Portuguese"));
 			printf("------------------------------------\n",setlocale(LC_ALL,"Portuguese"));			
 			goto aqui9;
@@ -319,8 +319,8 @@ int main () {
 		fprintf(saida,"VOCE VAI SER ENCAMINHADO PARA ALA DE: BAIXO RISCO\n");	
 	}
 	if ((cont>9)&&(cont<=19)){
-		printf("VOCE VAI SER ENCAMINHADO PARA ALA DE: MÉDIO RISCO\n");
-		fprintf(saida,"VOCE VAI SER ENCAMINHADO PARA ALA DE: MÉDIO RISCO\n");	
+		printf("VOCE VAI SER ENCAMINHADO PARA ALA DE: MÃ‰DIO RISCO\n");
+		fprintf(saida,"VOCE VAI SER ENCAMINHADO PARA ALA DE: MÃ‰DIO RISCO\n");	
 	}
 	if (cont>19){
 		printf("VOCE VAI SER ENCAMINHADO PARA ALA DE: ALTO RISCO\n");
