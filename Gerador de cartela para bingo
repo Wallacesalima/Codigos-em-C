@@ -9,7 +9,7 @@ int main(){
 
     bandeira = 0;
 
-    printf("Óla, informe quantas cartelas deseja gerar? ");
+    printf("Ã“la, informe quantas cartelas deseja gerar? ");
     scanf("%i", &cartelas);
 	printf("\n");
     fflush(stdin);
